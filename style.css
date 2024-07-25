@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+#btnSim a:hover{
+    color: greenyellow;
+}
